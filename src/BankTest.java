@@ -1,6 +1,6 @@
 import com.example.bank.*;
 
-public class Main {
+public class BankTest {
     public static void main(String[] args) {
 //        Instantiating a new account with axis bank
         Axis AxisAccount = new Axis("Rahul", "12345678", 150000.00);

@@ -19,6 +19,9 @@ public class IterationEnumeratorTest {
             System.out.println(it.next());
         }
 
+//        Enumeration<Integer> EnumTest = new Enumeration<Integer>(arr.iterator());
+
+
 //        Iterating through arr with an Enumeration object
         System.out.println("\nArrayList elements using Enumeration");
         Enumeration<Integer> Enum = new IteratorEnumeration<Integer>(arr.iterator());
